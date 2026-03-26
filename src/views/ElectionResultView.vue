@@ -1,6 +1,7 @@
 <template>
   <div class="election-result">
     <h1>This is an election result page</h1>
+    <!-- ผลการเลือกตั้ง -->
   </div>
 </template>
 

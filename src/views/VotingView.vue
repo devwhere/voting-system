@@ -1,6 +1,7 @@
 <template>
   <div class="voting">
     <h1>This is a voting page</h1>
+    <!-- ลงคะแนนเสียง -->
   </div>
 </template>
 

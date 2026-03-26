@@ -1,6 +1,7 @@
 <template>
   <div class="political-party">
     <h1>This is a political party page</h1>
+    <!-- พรรคการเมือง -->
   </div>
 </template>
 

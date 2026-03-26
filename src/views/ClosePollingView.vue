@@ -1,6 +1,7 @@
 <template>
   <div class="close-polling">
     <h1>This is a close polling page</h1>
+    <!-- ปิดหีบ -->
   </div>
 </template>
 

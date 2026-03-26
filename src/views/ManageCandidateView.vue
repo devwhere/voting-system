@@ -1,6 +1,7 @@
 <template>
-  <div class="create-party">
-    <h1>This is a create party page</h1>
+  <div class="manage-candidate">
+    <h1>This is an manage candidate page</h1>
+    <!-- จัดการผู้สมัคร -->
   </div>
 </template>
 

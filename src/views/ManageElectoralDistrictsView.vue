@@ -1,6 +1,7 @@
 <template>
   <div class="manage-electoral-districts">
     <h1>This is a manage electoral districts page</h1>
+    <!-- กำหนดเขตเลือกตั้ง -->
   </div>
 </template>
 

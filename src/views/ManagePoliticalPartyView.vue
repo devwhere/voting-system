@@ -1,6 +1,7 @@
 <template>
-  <div class="add-candidate">
-    <h1>This is an add candidate page</h1>
+  <div class="create-party">
+    <h1>This is a create party page</h1>
+    <!-- สร้างพรรคการเมือง -->
   </div>
 </template>
 

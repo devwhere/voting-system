@@ -1,6 +1,7 @@
 <template>
   <div class="manage-election-commission">
     <h1>This is a manage election commission page</h1>
+    <!-- จัดการกกต -->
   </div>
 </template>
 

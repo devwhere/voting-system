@@ -11,8 +11,14 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/voting-results">ผลการเลือกตั้ง</RouterLink>
+        <RouterLink to="/political-party">พรรคการเมือง</RouterLink>
+        <RouterLink to="/voting">ลงคะแนนเสียง</RouterLink>
+        <RouterLink to="/manage-candidate">เพิ่มผู้สมัคร</RouterLink>
+        <RouterLink to="/manage-political-party">สร้างพรรคการเมือง</RouterLink>
+        <RouterLink to="/close-polling">ปิดหีบ</RouterLink>
+        <RouterLink to="/manage-election-commission">จัดการกกต</RouterLink>
+        <RouterLink to="/manage-electoral-districts">กำหนดเขตเลือกตั้ง</RouterLink>
       </nav>
     </div>
   </header>

@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ElectionResultView from '@/views/ElectionResultView.vue'
+import VotingResultView from '@/views/VotingResultView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/voting-results',
       name: 'voting-results',
-      component: ElectionResultView,
+      component: VotingResultView,
     },
     {
       path: '/political-party',

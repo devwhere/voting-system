@@ -1,7 +1,8 @@
 export interface VotingResult {
-  candidate_number: string
-  candidate_firstname: String
-  candidate_surname: String
+  id: number
+  candidate_number: number
+  candidate_firstname: string
+  candidate_surname: string
   political_party_id: number
-  VotingResult: 'ไม่ได้รับการเลือกตั้ง'
+  VotingResult: string
 }

@@ -1,9 +1,35 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import VotingResult from '@/components/VotingResult.vue'
+const votingResults = ref([
+  {
+    id: 1,
+    candidate_number: 5,
+    candidate_firstname: 'Pattama',
+    candidate_surname: 'Lungkanee',
+    political_party_id: 1,
+    VotingResult: 'ไม่ได้รับการเลือกตั้ง',
+  },
+  {
+    id: 2,
+    candidate_number: 12,
+    candidate_firstname: 'Somchai',
+    candidate_surname: 'Srisuk',
+    political_party_id: 2,
+    VotingResult: 'ได้รับเลือกตั้ง',
+  },
+  {
+    id: 3,
+    candidate_number: 28,
+    candidate_firstname: 'Malee',
+    candidate_surname: 'Chaiyod',
+    political_party_id: 3,
+    VotingResult: 'รอผลการเลือกตั้ง',
+  },
+])
 </script>
 
 <template>
-  <VotingResult />
   <div class="container">
     <main class="content-card">
       <div class="filter-section">
@@ -35,7 +61,12 @@ import VotingResult from '@/components/VotingResult.vue'
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <VotingResult
+              v-for="votingResult in votingResults"
+              :key="votingResult.id"
+              :votingResult="votingResult"
+            />
+            <!-- <tr>
               <td>กรุงเทพมหานคร</td>
               <td class="area-text">ปัทมา ลงกานี</td>
               <td class="number-cell">1</td>
@@ -52,7 +83,7 @@ import VotingResult from '@/components/VotingResult.vue'
               <td>Area Details</td>
               <td class="number-cell">3</td>
               <td class="number-cell">ไม่ได้รับเลือก</td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
       </div>
